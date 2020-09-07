@@ -1,0 +1,38 @@
+body{
+	 text-align: center;
+}
+div{
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 7px;
+	margin-top: 7px;
+	font-size: 40px;
+	transition: width 0.5s;
+	font-family: Tahoma, Geneva, sans-serif; 
+	background-color: #eeeff2;
+}
+.second:hover{
+	width: 120px;
+}
+.first{
+	animation-name: anime;
+  	animation-duration: 3s;  
+  	animation-delay: 2s;
+  	animation-fill-mode: both;
+  	animation-iteration-count:infinite;
+	background-color: #DFE1E7;
+}
+.Fitem{
+ 	transition: width 0.5s;
+}
+.Fitem:hover{
+	width: 120px;
+}
+@keyframes anime {
+  from {background-color: #DFE1E7;}
+  to {background-color: #d0c0d1;}
+  from{background-color: #d0c0d1;}
+  to {background-color: #DFE1E7;}
+}

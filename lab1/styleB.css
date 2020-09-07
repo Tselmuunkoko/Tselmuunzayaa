@@ -1,0 +1,24 @@
+body{
+	display: flex;
+  	align-items: center;
+  }
+div{
+	height: 150px;
+	width: 100px;
+	border-left: 10px dotted #D0D0FF;
+	margin: 5px;
+	padding: 5px;
+	font-size: 40px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	cursor: pointer;
+	background-color: #eeeff2;
+}
+div:hover { 
+	background-color: yellow;
+	color: goldenrod;
+}
+.Fitem{
+	position: fixed;
+    bottom: 0;
+    right: 0;
+}
