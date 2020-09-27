@@ -1,23 +1,26 @@
-body{
-	display: flex;
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
   	align-items: center;
   }
-div{
+.flexcontainer div{
+    flex: 0 0 auto;
 	height: 150px;
-	width: 100px;
+    width: 100px;
 	border-left: 10px dotted #D0D0FF;
-	margin: 5px;
+	margin: 10px;
 	padding: 5px;
 	font-size: 40px;
 	font-family: Tahoma, Geneva, sans-serif; 
 	cursor: pointer;
 	background-color: #eeeff2;
 }
-div:hover { 
+.flexcontainer div:hover { 
 	background-color: yellow;
 	color: goldenrod;
 }
-.Fitem{
+.f {
 	position: fixed;
     bottom: 0;
     right: 0;
